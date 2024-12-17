@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  height: 90px;
+
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.wrapFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.wrapIcon {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.titleName {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: rgba(0, 128, 128, 0.353);
+  cursor: pointer;
+  display: block;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 120px;
+  height: 40px;
+  border: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgba(0, 128, 128, 0.582);
+}

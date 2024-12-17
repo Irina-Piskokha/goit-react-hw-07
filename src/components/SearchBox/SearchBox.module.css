@@ -1,0 +1,13 @@
+.text {
+  margin-bottom: 5px;
+}
+
+.searchForm {
+  margin-bottom: 20px;
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #000;
+  padding: 8px 20px;
+}
