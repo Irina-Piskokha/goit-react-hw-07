@@ -61,11 +61,11 @@ const slice = createSlice({
 
 export const selectFilteredContacts = createSelector(
   [selectContacts, selectNameFilter],
-  (contacts, filter) => {
+  (contacts, filters) => {
     return contacts
       ? contacts.filter((contact) =>
-          filter
-            ? contact.name.toLowerCase().includes(filter.toLowerCase())
+          filters
+            ? contact.name.toLowerCase().includes(filters.toLowerCase())
             : true
         )
       : [];

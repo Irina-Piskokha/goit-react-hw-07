@@ -21,7 +21,6 @@ const ContactList = () => {
       {loading && <h2>Loading...</h2>}
       <ul className={s.list}>
         {filteredContacts.map((item) => {
-          console.log(item);
           return (
             <li key={item.id} className={s.item}>
               <Contact name={item.name} number={item.number} id={item.id} />
